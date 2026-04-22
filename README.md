@@ -196,7 +196,6 @@ containers ran with default priority.
 Any variation in output timing was due to:
 
 -   standard Linux time-sharing
-
 -   CPU scheduling fairness
 
 **Conclusion**
@@ -207,80 +206,30 @@ Any variation in output timing was due to:
 
 -   Demonstrates default scheduling fairness and responsiveness
 
-**Screenshots-**
+## Screenshots
 
-Screenshot 1- Supervisor running
+### Screenshot 1 – Supervisor running
+![Screenshot 1](images/image1.png)
 
-![](media/image1.png){width="6.268055555555556in"
-height="1.1701388888888888in"}
+### Screenshot 2 – Multiple containers running
+![Screenshot 2](images/image2.png)
 
- 
+### Screenshot 3 – Bounded buffer logging pipeline
+![Screenshot 3](images/image3.png)
 
- 
+### Screenshot 4 – CLI via UNIX socket IPC
+![Screenshot 4](images/image4.png)
 
- Screenshot 2- Multiple containers running under a single supervisor
+### Screenshot 5 – Soft memory limit warning
+![Screenshot 5](images/image5.png)
 
-![](media/image2.png){width="6.268055555555556in"
-height="2.936111111111111in"}
+### Screenshot 6 – Hard limit enforcement
+![Screenshot 6](images/image6.png)
 
- 
+### Screenshot 7 – Scheduling impact using nice values
+![Screenshot 7](images/image7.png)
 
- 
-
- 
-
- Screenshot 3- Bounded buffer logging pipeline working
-
-![](media/image3.png){width="6.268055555555556in" height="2.8125in"}
-
- 
-
-![](media/image4.png){width="6.268055555555556in"
-height="2.6902777777777778in"}
+### Screenshot 8 – Clean shutdown
+![Screenshot 8](images/image8.png)
 
  
-
- Screenshot 4- CLI communicating via UNIX socket IPC
-
-![](media/image5.png){width="6.268055555555556in"
-height="2.7777777777777777in"}
-
- 
-
- Screenshot 5- Soft memory limit warning triggered
-
-![](media/image6.png){width="6.268055555555556in"
-height="2.7888888888888888in"}
-
- 
-
- 
-
- Screenshot 6- Hard limit enforcement (container killed)
-
-![](media/image7.png){width="5.7340277777777775in"
-height="2.5027777777777778in"}
-
-Hard and Soft limits-
-
-![](media/image8.png){width="6.268055555555556in"
-height="2.9881944444444444in"}
-
- 
-
- Screenshot 7- Scheduling impact using nice values
-
-![](media/image9.png){width="6.268055555555556in"
-height="2.498611111111111in"}
-
- 
-
-![](media/image10.png){width="6.268055555555556in"
-height="2.7555555555555555in"}
-
- 
-
- Screenshot 8- Clean shutdown, no zombie processes
-
-![](media/image11.png){width="6.268055555555556in"
-height="1.8527777777777779in"}
