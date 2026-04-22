@@ -199,7 +199,6 @@ Any variation in output timing was due to:
 -   CPU scheduling fairness
 
 **Conclusion**
-
 -   Linux scheduler distributes CPU fairly among processes
 
 -   Without priority control, containers receive roughly equal CPU time
@@ -211,25 +210,28 @@ Any variation in output timing was due to:
 ### Screenshot 1 – Supervisor running
 ![Screenshot 1](images/image1.png)
 
-### Screenshot 2 – Multiple containers running
+### Screenshot 2 – Multiple containers running under a single supervisor
 ![Screenshot 2](images/image2.png)
 
-### Screenshot 3 – Bounded buffer logging pipeline
+### Screenshot 3 – Bounded buffer logging pipeline working
 ![Screenshot 3](images/image3.png)
+![Screenshot 3b](images/image4.png)
 
-### Screenshot 4 – CLI via UNIX socket IPC
-![Screenshot 4](images/image4.png)
+### Screenshot 4 – CLI communicating via UNIX socket IPC
+![Screenshot 4](images/image5.png)
 
-### Screenshot 5 – Soft memory limit warning
-![Screenshot 5](images/image5.png)
+### Screenshot 5 – Soft memory limit warning triggered
+![Screenshot 5](images/image6.png)
 
-### Screenshot 6 – Hard limit enforcement
-![Screenshot 6](images/image6.png)
+### Screenshot 6 – Hard limit enforcement (container killed)
+![Screenshot 6](images/image7.png)
+
+## Hard and Soft Limits
+![Hard and Soft Limits](images/image8.png)
 
 ### Screenshot 7 – Scheduling impact using nice values
-![Screenshot 7](images/image7.png)
+![Screenshot 7](images/image9.png)
+![Screenshot 7b](images/image10.png)
 
-### Screenshot 8 – Clean shutdown
-![Screenshot 8](images/image8.png)
-
- 
+### Screenshot 8 – Clean shutdown, no zombie processes
+![Screenshot 8](images/image11.png)
